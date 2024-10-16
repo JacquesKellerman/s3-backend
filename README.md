@@ -2,8 +2,8 @@
 
 Create a S3 bucket and DynamoDB table to use as Terraform backend.
 
-* dynamodb_table_name = terraform-lock
-* s3_bucket_name = <account_id>-terraform-states
+* dynamodb_table_name = <account_id>-<aws_region-shortname>-<application_name>-terraform-lock
+* s3_bucket_name = <account_id>-<aws_region-shortname>-<application_name>-terraform-states
 
 # Usage
 
